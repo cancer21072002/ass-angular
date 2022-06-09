@@ -1,0 +1,60 @@
+<div class="header-top flex justify-between h-[80px] w-[1200px] m-auto">
+    <figure class="logo pt-5">
+        <a routerLink="/">
+            <img src="https://cdn0.fahasa.com/skin/frontend/ma_vanese/fahasa/images/logo/fahasa_logo.png" width="150px">
+        </a>
+    </figure>
+    <div>
+        <ul class="w-[700px] mt-5 pl-10 flex ">
+            <li><a class="px-[20px]" routerLink="">TRANG CHỦ</a></li>
+            <li><a class="px-[20px]" routerLink="/product">SẢN PHẨM</a></li>
+            <li><a class="px-[20px]" routerLink="/posts">BÀI VIẾT</a></li>
+            <li><a class="px-[20px]" routerLink="#">GIỚI THIỆU</a></li>
+            <li><a class="px-[20px]" routerLink="#">LIÊN HỆ</a></li>
+
+        </ul>
+    </div>
+    <div class="flex mt-[30px] text-center checksn">
+
+
+
+        <div class="signin pl-5 ">
+            <div class="flex">
+
+                <a routerLink="auth/signup" class=" sm:ml-3">
+                    <button type="button" class=" inline-flex items-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-[red] hover:bg-red-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Sing up </button>
+                </a>
+
+                <a routerLink="auth/signin" class=" sm:ml-3">
+                    <button type="button" class=" inline-flex items-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-emerald-500 hover:bg-emerald-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Sing in</button>
+                </a>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+<div class="bg-teal-600">
+
+
+
+    <div class="header-top bg-teal-600 flex justify-between h-[80px] w-[1200px] m-auto">
+        <div class="nav pt-4">
+            <div>
+                <button class="bg-[#2b2d42] text-[#ffffff] hover:text-[#ff0000] px-[20px] py-[8px] ">All categories</button>
+            </div>
+        </div>
+        <div>
+            <app-search></app-search>
+        </div>
+        <div class="flex mt-4 text-center ">
+
+            <div class="signin pl-4">
+
+                <ul class="flex">
+                    <a routerLink="/cart"> <button class="inline-flex items-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-[blue] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Gio Hàng </button></a>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
