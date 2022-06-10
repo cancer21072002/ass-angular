@@ -7,21 +7,21 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular';
-  name = 'tamltph13479';
+  name = 'Vandthph13979';
   class = 'we16301';
   students = [
     {
-      name: 'Tam1',
+      name: 'Van1',
       id: 'PH1',
       status: 0
     },
     {
-      name: 'Tam2',
+      name: 'Van2',
       id: 'PH2',
       status: 0
     },
     {
-      name: 'Tam3',
+      name: 'Van3',
       id: 'PH3',
       status: 1
     }
@@ -44,8 +44,8 @@ export class AppComponent {
       avatar: 'https://demoda.vn/wp-content/uploads/2022/02/anh-lol-dep-lmht-hinh-nen-lol-cuc-ngau.jpg'
     }
   ]
-  studentName = 'Le The Tam'
-  studentMSV = 'PH13479'
+  studentName = 'Đỗ Hồng Vân'
+  studentMSV = 'PH13979'
   // Su kien
   showStatus = true;
   onClickBtn() {
