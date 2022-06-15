@@ -34,7 +34,7 @@
                                     <form [formGroup]="categoryForm" (ngSubmit)="onSubmit()">
                                         <div class=" col-span-6 sm:col-span-4 py-[30px] ">
                                             <label class="block text-sm font-medium text-gray-700 ">Name</label>
-                                            <input type="text " class="form-control " id="" formControlName="name" placeholder="">
+                                            <input type="text " class="form-control " id="" formControlName="name">
 
                                             <app-show-validate [field]="categoryForm.get('name')" key="Tên sản phẩm" class="text-[15px]"></app-show-validate>
                                         </div>

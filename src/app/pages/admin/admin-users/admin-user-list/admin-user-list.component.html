@@ -37,7 +37,7 @@
                                                 <th> <span class="ml-2 text-[20px]">STT</span> </th>
                                                 <th> <span class="ml-2">Name</span> </th>
                                                 <th> <span class="ml-2">Email</span> </th>
-                                                <th> <span class="ml-2">Password</span> </th>
+                                                <!-- <th> <span class="ml-2">Password</span> </th> -->
                                                 <th> <span class="ml-2">role</span> </th>
 
 
@@ -51,11 +51,11 @@
                                                 <td class="">{{i+1}}</td>
                                                 <td>{{user.name}}</td>
                                                 <td>{{user.email}}</td>
-                                                <td>{{user.password}}</td>
+                                                <!-- <td>{{user.password}}</td> -->
                                                 <td>{{user.role}}</td>
                                                 <td colSpan={2}>
                                                     <a routerLink="/admin/user/edit/{{user._id}}"> <button class="btn btn-primary">Update</button></a>
-                                                    <button class="btn btn-danger" (click)="onDelete(user._id)">Remove</button></td>
+                                                    <!-- <button class="btn btn-danger" (click)="onDelete(user._id)">Remove</button></td> -->
                                             </tr>
 
 

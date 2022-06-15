@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { Component, NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { PostListComponent } from './components/client-pages/post-list/post-list.component';
 import { ProductsListComponent } from './components/client-pages/products-list/products-list.component';
@@ -15,12 +15,15 @@ import { AdminProductFormComponent } from './pages/admin/admin-product/admin-pro
 import { AdminProductListComponent } from './pages/admin/admin-product/admin-product-list/admin-product-list.component';
 import { AdminUserFormComponent } from './pages/admin/admin-users/admin-user-form/admin-user-form.component';
 import { AdminUserListComponent } from './pages/admin/admin-users/admin-user-list/admin-user-list.component';
+import { AboutComponent } from './pages/client-pase/about/about.component';
 import { CartComponent } from './pages/client-pase/cart/cart.component';
+import { ContactComponent } from './pages/client-pase/contact/contact.component';
 import { HomepagesComponent } from './pages/client-pase/homepages/homepages.component';
 import { PostDetailComponent } from './pages/client-pase/post-detail/post-detail.component';
 import { ProductDetailComponent } from './pages/client-pase/product-detail/product-detail.component';
 import { SigninComponent } from './pages/client-pase/signin/signin.component';
 import { SignupComponent } from './pages/client-pase/signup/signup.component';
+
 
 
 const routes: Routes = [
@@ -51,6 +54,14 @@ const routes: Routes = [
         component: CartComponent
 
       },
+       {
+    path :'contact',
+    component: ContactComponent,
+  },
+   {
+    path :'info',
+    component: AboutComponent ,
+  },
       {
         path: 'posts',
         children: [
@@ -80,6 +91,7 @@ const routes: Routes = [
       }
     ]
   },
+ 
   {
     path: 'admin',
     component: AdminLayoutComponent,

@@ -37,6 +37,8 @@ import { AdminUserListComponent } from './pages/admin/admin-users/admin-user-lis
 import { AdminUserFormComponent } from './pages/admin/admin-users/admin-user-form/admin-user-form.component';
 import { AdminBannerListComponent } from './pages/admin/admin-banner/admin-banner-list/admin-banner-list.component';
 import { AdminBannerFormComponent } from './pages/admin/admin-banner/admin-banner-form/admin-banner-form.component';
+import { AboutComponent } from './pages/client-pase/about/about.component';
+import { ContactComponent } from './pages/client-pase/contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -68,7 +70,9 @@ import { AdminBannerFormComponent } from './pages/admin/admin-banner/admin-banne
     AdminUserListComponent,
     AdminUserFormComponent,
     AdminBannerListComponent,
-    AdminBannerFormComponent
+    AdminBannerFormComponent,
+    AboutComponent,
+    ContactComponent
 
 
   ],
